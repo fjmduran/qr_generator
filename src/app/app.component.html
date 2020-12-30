@@ -1,2 +1,8 @@
-<input type="text" [(ngModel)]="myAngularxQrCode">{{myAngularxQrCode}}
-<qrcode [qrdata]="myAngularxQrCode" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+<body>
+    <div class="container">
+        <input type="text" [(ngModel)]="myAngularxQrCode">
+        <qrcode [qrdata]="myAngularxQrCode" [width]="300" [errorCorrectionLevel]="'M'"></qrcode>
+        <a href="https://fjmduran.com">Visita mi página</a>
+    </div>    
+</body>
+
