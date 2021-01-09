@@ -9,13 +9,15 @@ Importar QRCodeModule en el módulo en el que vayas a usar el generador de QR en
 
 COMPONENTE
 - En el TypeScript
-export class QRCodeComponent {
+
+`export class QRCodeComponent {
   public myAngularxQrCode: string = null;
   constructor () {
     // assign a value
     this.myAngularxQrCode = 'Your QR code data string';
   }
-}
+}`
 
 - En el HTML 
-<qrcode [qrdata]="myAngularxQrCode" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+
+`<qrcode [qrdata]="myAngularxQrCode" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>`
